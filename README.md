@@ -1,6 +1,6 @@
-﻿# IPWorks FileMailer for Gmail
+﻿# IPWorks FileMailer 
 
-A simply C# console application that uses FileMailer from ipWorks to send an email using a gmail account enabled with Multi Factor Authentication (MFA). 
+A simply C# console application that uses FileMailer from ipWorks to send an email using a gmail, hotmail or yahoo account enabled with Multi Factor Authentication (MFA). 
 
 ## Replace Placeholders
 
