@@ -11,6 +11,14 @@ In the appsettings.json replace the following
     "User": "replace_with_gmail_account@gmail.com",
     "Password": "replace_with_app_password_for_MFA",
     "RuntimeLicense": "replace_with_ipWorks_License",
+
+For gmail, use     
+
+    "MailServer": "smtp.gmail.com",
+
+For hotmail, use 
+
+    "MailServer": "smtp.office365.com",
  
 ## How to get password for MFA 
 
@@ -34,6 +42,16 @@ When MFA is enabled, the password you use to log into the gmail account is not t
 ### Hotmail
 
 - Go to your Microsoft account security settings (https://account.microsoft.com/security/).
-- Scroll down to "App passwords" and click on "Create a new app password".
-- Follow the prompts to generate and copy the app password.
-- Use the generated password in the appsettings.config above.git 
+- Click on Advanced Security Options 
+![Alt text](./images/hotmail-step0.png)
+- Under Additional Security click on Two-Step vertification 
+- Go through the guided steps and turn it on 
+- Download the Microsoft Authenticator app on your mobile device and add your hotmail account to the Authenticator app 
+![Alt text](./images/hotmail-step1.png)
+![Alt text](./images/hotmail-step2.png)
+![Alt text](./images/hotmail-step3.png)
+- Now your two-step verification is ON and you can see the Create app password link 
+![Alt text](./images/hotmail-step4.png)
+- Click on the create app password link and your new app password will be displayed
+![Alt text](./images/hotmail-step5.png)
+- Copy the app password and use the generated password in the appsettings.config above.git 
