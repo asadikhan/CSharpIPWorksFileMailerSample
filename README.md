@@ -54,4 +54,4 @@ When MFA is enabled, the password you use to log into the gmail account is not t
 ![Alt text](./images/hotmail-step4.png)
 - Click on the create app password link and your new app password will be displayed  
 ![Alt text](./images/hotmail-step5.png)
-- Copy the app password and use the generated password in the appsettings.config above.git 
+- Copy the app password and use the generated password in the appsettings.config above. 
