@@ -42,16 +42,16 @@ When MFA is enabled, the password you use to log into the gmail account is not t
 ### Hotmail
 
 - Go to your Microsoft account security settings (https://account.microsoft.com/security/).
-- Click on Advanced Security Options 
+- Click on Advanced Security Options  
 ![Alt text](./images/hotmail-step0.png)
 - Under Additional Security click on Two-Step vertification 
 - Go through the guided steps and turn it on 
-- Download the Microsoft Authenticator app on your mobile device and add your hotmail account to the Authenticator app 
+- Download the Microsoft Authenticator app on your mobile device and add your hotmail account to the Authenticator app  
 ![Alt text](./images/hotmail-step1.png)
 ![Alt text](./images/hotmail-step2.png)
 ![Alt text](./images/hotmail-step3.png)
-- Now your two-step verification is ON and you can see the Create app password link 
+- Now your two-step verification is ON and you can see the Create app password link  
 ![Alt text](./images/hotmail-step4.png)
-- Click on the create app password link and your new app password will be displayed
+- Click on the create app password link and your new app password will be displayed  
 ![Alt text](./images/hotmail-step5.png)
 - Copy the app password and use the generated password in the appsettings.config above.git 
